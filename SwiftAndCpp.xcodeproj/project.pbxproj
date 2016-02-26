@@ -14,6 +14,7 @@
 		4EF0EF0B1C7BA6CD00E226BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF0EF091C7BA6CD00E226BC /* LaunchScreen.storyboard */; };
 		4EF0EF151C7BA6FD00E226BC /* ItsCpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0EF131C7BA6FD00E226BC /* ItsCpp.cpp */; };
 		4EF0EF181C7BA80900E226BC /* ObjCppWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0EF171C7BA80900E226BC /* ObjCppWrapper.mm */; };
+		4EFCEA331C803C6400CA3D5C /* ItsCData.c in Sources */ = {isa = PBXBuildFile; fileRef = 4EFCEA311C803C6400CA3D5C /* ItsCData.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		4EF0EF141C7BA6FD00E226BC /* ItsCpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ItsCpp.hpp; sourceTree = "<group>"; };
 		4EF0EF161C7BA80900E226BC /* ObjCppWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCppWrapper.h; sourceTree = "<group>"; };
 		4EF0EF171C7BA80900E226BC /* ObjCppWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjCppWrapper.mm; sourceTree = "<group>"; };
+		4EFCEA311C803C6400CA3D5C /* ItsCData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ItsCData.c; sourceTree = "<group>"; };
+		4EFCEA321C803C6400CA3D5C /* ItsCData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItsCData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				4EF0EF161C7BA80900E226BC /* ObjCppWrapper.h */,
 				4EF0EF171C7BA80900E226BC /* ObjCppWrapper.mm */,
 				4EF0EF121C7BA6FC00E226BC /* SwiftAndCpp-Bridging-Header.h */,
+				4EFCEA311C803C6400CA3D5C /* ItsCData.c */,
+				4EFCEA321C803C6400CA3D5C /* ItsCData.h */,
 			);
 			path = SwiftAndCpp;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 				4EF0EF181C7BA80900E226BC /* ObjCppWrapper.mm in Sources */,
 				4EF0EF151C7BA6FD00E226BC /* ItsCpp.cpp in Sources */,
 				4EF0EF011C7BA6CD00E226BC /* AppDelegate.swift in Sources */,
+				4EFCEA331C803C6400CA3D5C /* ItsCData.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +309,7 @@
 				4EF0EF111C7BA6CD00E226BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
